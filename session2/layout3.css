@@ -1,0 +1,36 @@
+header, footer,nav{
+	height: 50px;
+	border: 1px solid black;
+	width: 800px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+	margin:0 auto;
+}
+section{
+	width: 800px;
+	height: 500px;
+	text-align: center;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+.section{
+	width: 596px;
+	float: left;
+
+}
+.sec1{
+	line-height: 249px;
+	border: 1px solid black;
+}
+.sec2{
+	line-height: 249px;
+	border: 1px solid black;
+}
+.aside{
+	width: 200px;
+	float: left;
+	line-height: 500px;
+	border: 1px solid black;
+}

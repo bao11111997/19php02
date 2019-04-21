@@ -1,0 +1,49 @@
+#main{
+	height: 200px;
+	border: 1px solid black;
+	width: 800px;
+	margin:0 auto;
+}
+#left{
+	height: 200px;
+	border: 1px solid black;
+	width: 200px;
+	float: left;
+	text-align: center;
+	line-height: 200px;
+	font-weight: bold;
+}
+#right{
+	height: 200px;
+	border: 1px solid black;
+	width: 596px;
+	float: left;
+	text-align: center;
+	line-height: 200px;
+	font-weight: bold;
+}
+header, footer{
+	height: 50px;
+	border: 1px solid black;
+	width: 800px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+	margin:0 auto;
+}
+.logo, .banner{
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.logo{
+	width: 200px;
+	float: left;
+}
+.banner{
+	width: 596px;
+	float: left;
+}
