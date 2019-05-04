@@ -1,0 +1,31 @@
+body{
+	border: 1px solid green;
+	width: 98%;
+	text-align: center;
+}
+.container{
+	border-bottom: 1px solid green;
+	height: 100px;
+}
+.logo{
+	border-right: 1px solid green;
+	float: left;
+	width: 40%;
+	height: 100px;
+	line-height: 100px;
+}
+.slogan{
+	float: left;
+	width: 59%;
+	height: 100px;
+	line-height: 100px;
+}
+.main1, .main2{
+	border-bottom: 1px solid green;
+	height: 200px;
+	line-height: 200px;
+}
+.footer{
+	height: 100px;
+	line-height: 100px;
+}
