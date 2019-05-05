@@ -1,0 +1,27 @@
+.a,.f{
+	width: 800px;
+	height: 50px;
+	background-color: #FF8A00;
+	margin:0 auto;
+	margin-bottom: 10px;
+}
+.b{
+	width: 800px;
+	height: 450px;	
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.c{
+	float: left;
+	width: 680px;
+	background-color: #FF8A00;
+	height: 450px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.d,.e{
+	float: left;
+	width: 50px;
+	background-color: #FF8A00;
+	height: 450px;
+}
