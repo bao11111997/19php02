@@ -1,0 +1,118 @@
+body{
+	width: 1024px;
+	margin:0 auto;
+}
+.header{
+	height: 50px;
+	margin-bottom: 10px;
+}
+.logo,.slogan{
+	float: left;
+	height: 50px;
+	width: 507px;
+	background-color: #FEA531;
+
+}
+.logo{margin-right:10px;}
+.slider{
+	width: 1024px;
+	height: 250px;
+	background-color: #DBED01;
+	margin-bottom: 10px;
+}
+.new{
+	height: 150px;
+	margin-bottom: 10px;
+}
+.new1,.new2,.new3{
+	width: 338px;
+	background-color: #4A89D0;
+	float: left;
+	height: 150px;
+}
+.new1,.new2{
+	margin-right: 5px;
+}
+.ads{
+	height: 100px;
+}
+.ads1,.ads2,.ads3,.ads4{
+	width: 253px;
+	height: 100px;
+	background-color: #E3E3E3;
+	float: left;
+}
+.ads1,.ads2,.ads3{
+	margin-right: 4px;
+}
+@media only screen and (max-width: 768px) {
+	.logo,.slogan{
+		width: 100%;
+		margin-bottom: 1%;
+		float: none;
+	}
+	.header{
+		height: 110px;
+	}
+	.slider{
+		height: 200px;
+	}
+	.new1,.new2,.new3{
+		float: none;
+		width: 100%;
+		margin-bottom: 1%;
+		height: 150px;
+	}
+	.new{
+		height: 470px;
+		margin-bottom: 1%;
+	}
+	.ads{
+		height: 150px;
+	}
+	.ads1,.ads2{
+		float: left;
+		width: 49%;
+		height: 49px;
+		margin-bottom: 1%;
+	}
+	.ads1,.ads3{
+		margin-right: 16px;
+	}
+	.ads3,.ads4{
+		float: left;
+		width: 49%;
+		height: 49px;
+	}
+}
+@media only screen and (max-width: 320px){
+	.logo,.slogan{
+		width: 100%;
+		margin-bottom: 1%;
+		float: none;
+	}
+	.header{
+		height: 110px;
+	}
+	.slider{
+		height: 70px;
+	}
+	.new1,.new2,.new3{
+		float: none;
+		width: 100%;
+		margin-bottom: 1%;
+		height: 100px;
+	}
+	.new{
+		height: 320px;
+	}
+	.ads{
+		height: 50px;
+	}
+	.ads1{
+		width: 100%;
+	}
+	.ads2,.ads3,.ads4{
+		display: none;
+	}
+}
