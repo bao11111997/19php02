@@ -1,0 +1,16 @@
+ul li{
+	float: left;
+	border:2px solid blue;
+	list-style:none;
+}
+a {
+	text-decoration: none;
+	color: white;
+	background-color: blue;
+	padding: 10px;
+	border: 2px solid white;
+	display: block;
+	width: 175px;
+	text-align: center;
+	font-weight: bold;
+}
