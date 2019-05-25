@@ -1,0 +1,54 @@
+.login {
+	float: left;
+}
+.form1 ,.form2 {
+	float: left;
+}
+.form1 {
+	margin-right: 25px;
+}
+#form1 {
+	border:1px solid #D0D0D0;
+	padding: 20px;
+}
+.box {
+	width: 260px;
+	height: 20px;
+	background-color: #F7F7F7;
+	border-radius: 4px;
+}
+.kytu {
+	color: red;
+}
+.form1a {
+
+	border-radius: 4px;
+
+}
+.first ,.last {
+	float: left;
+}
+.box1 {
+	width: 123px;
+	height: 20px;
+	background-color: #F7F7F7;
+	border-radius: 4px;
+}
+.first {
+	margin-right: 10px;
+}
+input {
+	border:1px solid #D5D5D5;
+}
+.login, .register {
+	border-radius: 4px;
+	font-weight: bold;
+	color: #5C5A5B;
+	padding: 5px;
+}
+.checkbox {
+	width: 10px;
+}
+.check {
+	font-size: 14px;
+}

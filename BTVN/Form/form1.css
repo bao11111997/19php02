@@ -1,0 +1,24 @@
+body {
+	font-weight: bold;
+	width: 500px;
+	margin: 0 auto;
+
+}
+.kytu {
+	color: red;
+}
+.box {
+	width: 500px;
+	height: 20px;
+	background-color: #FFFFFF;
+	border-radius: 4px;
+}
+.submit {
+	width: 70px;
+    height: 25px;
+    background-color: #4589C6;
+    border-radius: 4px;
+}
+input {
+	border:1px solid #D5D5D5;
+}
