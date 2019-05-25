@@ -1,0 +1,23 @@
+@font-face {
+	font-family: newfont;
+	src: url('font/CaviarDreams.ttf');
+}
+p.demo1{
+	font-family: Arial;
+	text-transform: lowercase;
+	text-decoration: underline;
+	text-shadow: 20px -20px;
+}
+p.demo2 {
+	font-family: newfont;
+	text-indent: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: line-through;
+}
+p {
+	color: red !important;
+}
+p {
+	color: green;
+}
