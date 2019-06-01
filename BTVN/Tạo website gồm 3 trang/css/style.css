@@ -1,0 +1,140 @@
+a {
+	text-decoration: none;
+
+}
+header {
+	width: 100%;
+}
+.logo img{
+	width: 100%;
+	height: 58px;
+}
+.banner {
+	height: 250px;
+}
+.banner img {
+	width: 100%;
+	height: 250px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	height: 18px;
+	width: 100%;
+	height: 58px;
+}
+.logo {
+	width: 7%;
+	height: 58px;
+}
+ul li {
+	float: left;
+	list-style:none;
+	width: 31%;
+}
+ul li a {
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color:#FFCA08;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+ul li a:hover {
+	background-color:#EB2C93;
+}
+h2 {
+	background-color: orange;
+	color: white;
+	width: 8%;
+	margin-top:15px;
+	padding: 10px;
+	margin-bottom: 0px;
+}
+.h2 {
+	border-bottom: 4px solid orange;
+}
+hr {
+	margin: 25px;
+}
+#img {
+	width: 50%;
+}
+#img img{
+	width: 100%;
+	float: left;
+}
+#text	 {
+	margin-left: 30px;
+	width: 47%;
+	float: left;
+}
+#text p {
+	font-size: 18px;
+}
+h3, h4 {
+	text-align: center;
+}
+#hotnew {
+	height: 310px;
+}
+.hotnew div {
+	float: left;
+	width: 24%;
+	margin-right: 13px;
+}
+.hotnew div a img {
+	width: 100%;
+	height: 180px;
+}
+.hotnew div h3 a {
+	color: black;
+	font-weight: bold;
+}
+.hotnew {
+	height: 386px;
+}
+footer {
+	background: black;
+	color: #F0C000;
+	height: 370px;
+	display: block;
+}
+footer div {
+	float: left;
+}
+#footer1, #footer2{
+	width:49%;
+}
+#footer1 {
+	margin-left: 10px;
+}
+#footer2 div {
+	text-align: center;
+	width: 100%;
+}
+#footer2 p {
+	color: #4A4A4A;s
+}
+h5 {
+	color: #12998B;
+}
+.gioithieu {
+	width: 16%;
+}
+.img {
+	text-align: center;
+}
+table {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+tr, td {
+	border: 1px solid black;
+	padding: 19px;
+}
+.kytu {
+	color: red;
+}
