@@ -1,6 +1,8 @@
 body {
 	margin-right: 100px;
 	margin-left: 100px;
+	background-color: #ECECEC;
+	margin-top:0px;
 }
 a {
 	text-decoration: none;
@@ -39,4 +41,138 @@ ul li a {
 ul li a:hover {
 	background-color:white;
 	color: black;
+}
+.pred{
+	color: red;
+}
+.sec1 {
+	width: 45%;
+	float: left;
+}
+.sec1 a p{
+	text-decoration: underline;
+}
+.sec1 img {
+	width: 90%;
+}
+.sec2, .sec3 {
+	width: 25%;
+	float: left;
+}
+section {
+	margin-top: 60px;
+}
+.new1, .new2 {
+	width: 45%;
+	float: left;
+}
+.new1 img {
+	width: 100%;
+}
+.new2 p {
+	width: 100%;
+}
+.sec2_1 {
+	height: 150px;
+}
+.new2 {
+	margin-left: 25px;
+}
+.ptime {
+	color: #7D7D7D;
+	clear: left;
+	width: 100%;
+}
+.new {
+	height: 80px;
+}
+.sec3 {
+	margin-left: 30px;
+	height: 500px;
+}
+.sec3 a {
+	padding: 10px;
+	text-decoration: underline;
+}
+.pblue {
+	color: blue;
+}
+#sec2 {
+	clear: left;
+	height: 230px;
+}
+#sec1 {
+	height: 500px;
+}
+.photos {
+	width: 18%;
+	float: left;
+}
+.photos img {
+	width: 100%;
+}
+.mr {
+	margin-right: 28px ;
+}
+.r {
+	float: right;
+	text-decoration: underline;
+	margin-top: 20px;
+}
+#sec2_1{
+	height: 145px;
+}
+#sec3_1 {
+	float: left;
+	width: 32%;
+}
+#sec3{
+	height: 475px;
+}
+.aimg {
+	float: left;
+	width: 50%;
+}
+.aimg img {
+	width: 100%;
+}
+.poli {
+	height: 110px;
+}
+.poli div {
+	margin-left: 10px;
+	width: 45%;
+	float: left;
+}
+.time {
+	color: #7D7D7D;
+}
+.sec3mr {
+	margin-right: 22px;
+}
+.footer {
+	float: left;
+	width: 23%;
+	height: 200px;
+}
+.footer a {
+	width: 100%;
+	color:  #7D7D7D;
+	text-decoration: underline;
+}
+footer {
+	height: 250px;
+}
+.fr {
+	margin-right: 30px;
+}
+.right {
+	float: right;
+	width: 10%;
+}
+.left {
+	float: left;
+}
+.right img {
+	width: 20%;
 }

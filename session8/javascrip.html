@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Introduce javascript - Session8</title>
+	<!-- Internal javascript -->
+	<script type="text/javascript">
+		alert('web')
+	</script>
+	<!-- External javascript -->
+	<script type="text/javascript" src="introduce.js"></script>
+</head>
+<body>
+	<!-- 5 việc mà javascript làm trên web -->
+	<!--1. thay đổi nội dung HTML-->
+	<p id="demo1">Hello javascript</p>
+	<a href="#" onclick="document.getElementById('demo1').innerHTML = 'Hello 19PHO02' ">Change content</a>
+	<br>
+	<!--2. Thay đổi thuộc tính HTML-->
+	<img src="p.jpg" alt="Image" id="demo2">
+	<a href="#" onclick="document.getElementById('demo2').src = 'logo.jpg' ">Change Image</a>
+	<!--3. Thay đổi style HTML-->
+	<p id="demo3">Hello 19PHP02</p>
+	<a href="#" onclick="document.getElementById('demo3').style.fontSize = '30px' ">Change style</a>
+	<!--4. Ẩn đối tượng HTML-->
+	<p id="demo4">Hello 19PHP02</p>
+	<a href="#" onclick="document.getElementById('demo4').style.display = 'none'">Hide content</a>
+	<!--5. Hiển Thị Đối tượng HTML-->
+	<a href="#" onclick="document.getElementById('demo4').style.display = 'block' ">Show content</a>
+</body>
+</html>

@@ -1,0 +1,14 @@
+#img1, #img2, #img3, #img4 {
+	float: left;
+	width: 20%;
+	margin: 20px;
+	height: 250px;
+}
+#img6 {
+	clear: left;
+	text-align: center;
+}
+#img5 {
+	width: 20%;
+	height: 250px;
+}
