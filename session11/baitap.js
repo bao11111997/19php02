@@ -18,9 +18,4 @@ function checkForm() {
 	}else {
 		alert('Dang ky thanh cong');
 	}
-	if (male || female) {
-		document.getElementById('errSex').innerHTML = ' ';
-	} else {
-		document.getElementById('errSex').innerHTML = 'Please input your Email';
-	}
 }
