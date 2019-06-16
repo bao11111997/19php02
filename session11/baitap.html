@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Bai Tap Form</title>
+	<link rel="stylesheet" href="baitap.css">
+</head>
+<body>
+	<h1>Registration form</h1>
+	<form action="#">
+		<p>Name:
+			<input type="text" name="name" id="name">
+			<p id="errName" class="error"></p>
+		</p>
+		<p>Email:
+			<input type="text" name="email" id="email">
+			<p id="errEmail" class="error"></p>
+		</p>
+		<p>Gioi tinh:
+			<input type="radio" name="gender" name="Male" id="male" > Male
+			<input type="radio" name="gender" value="Female" id="female"> Female
+			<p id="errSex" class="error"></p>
+		</p>
+		<p>Ngay Sinh:
+			<input type="date" name="date" value="1997-11-11" id="date">
+		</p>
+		<p>City
+			<select name="city">
+				<option value="danang">Da Nang</option>
+				<option value="quangtri">Quang Tri</option>
+				<option value="quangnam">Quang Nam</option>
+			</select>
+		</p>
+		<p>
+			<input type="button" value="Registration" onclick="checkForm()">
+		</p>
+	</form>
+	<script src="baitap.js"></script>
+</body>
+</html>
